@@ -2,9 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+# index.md (or index.markdown in repo root)
 ---
-layout: home     # uses Minima’s home layout (posts list)
+layout: default
 title: Sae Furukawa
 ---
-Hello! This is my homepage intro.
----
+## About
+I am a first-year PhD student at Northeastern University where I am advised by Professor Alina Oprea. My research focuses on privacy-preserving machine learning, differential privacy, federated learning and adversarial machine learning.
+
+I received my Bachelor’s degree in Computer Science at Pomona College. During undergrad, I worked with Professor David Nembhard in the Human Analytics Lab and completed my undergraduate thesis with Professors David Kauchak and Eleanor Birrell on the differentially private federated fine-tuning of LLMs for hate speech detection. Previously, I interned at Apple, where I worked on the on-device anomaly detection research.
+
+## Contact
+• [email](mailto:furukawa.s@northeastern.edu) • Google Scholar • [GitHub](https://github.com/Saefurukawa)
