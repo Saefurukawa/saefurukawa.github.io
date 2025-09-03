@@ -1,4 +1,7 @@
 <aside class="home-aside">
+  {% if site.avatar %}
+  <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait" class="avatar">
+  {% endif %}
   <h2 class="site-name">{{ site.title }}</h2>
   {% if site.location %}<div class="location">{{ site.location }}</div>{% endif %}
   {% if site.description %}<p class="desc">{{ site.description }}</p>{% endif %}

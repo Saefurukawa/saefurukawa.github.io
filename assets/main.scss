@@ -12,3 +12,13 @@
 .home-aside .desc { margin: .4rem 0 .8rem 0; }
 .home-aside .meta { list-style: none; padding: 0; margin: 0; }
 .home-aside .meta li { margin: .15rem 0; }
+
+.home-aside .avatar {
+    display: block;
+    width: 140px;    /* tweak size here */
+    height: 140px;
+    border-radius: 9999px;  /* circular crop */
+    object-fit: cover;
+    margin-bottom: 0.75rem;
+  }
+  
