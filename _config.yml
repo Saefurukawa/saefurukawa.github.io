@@ -24,7 +24,7 @@ email: furukawa.s[at]northeastern.edu
 description: >- # this means to ignore newlines until "baseurl:"
   First-year PhD student at Northeastern University
 header_pages:
-  - index.markdown
+  - about.md
   - publications.md
   - cv.md
   - contact.md
