@@ -2,7 +2,7 @@
 ---
 @import "minima";
 
-/* simple two-column home layout */
+/* two-column layout */
 .home-grid { display: flex; gap: 2rem; align-items: flex-start; }
 .home-aside { flex: 0 0 260px; }
 .home-content { flex: 1; min-width: 0; }
