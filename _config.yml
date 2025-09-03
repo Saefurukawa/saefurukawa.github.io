@@ -27,11 +27,10 @@ header_pages:
   - about.md
   - publications.md
   - cv.md
-  - contact.md
 url: "https://saefurukawa.github.io"
 baseurl: ""
 github_username: "Saefurukawa"
-# linkedin: "https://www.linkedin.com/in/<your-handle>"
+linkedin: "https://www.linkedin.com/in/sae-furukawa-0314b71a3/"
 
 
 # Exclude from processing.
