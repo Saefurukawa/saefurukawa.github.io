@@ -1,6 +1,6 @@
 ---
 ---
-@import "minima";
+@use "minima";
 
 /* two-column layout used by 'sidebar' layout */
 .home-grid { display: flex; gap: 2rem; align-items: flex-start; }
