@@ -19,19 +19,19 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Sae Furukawa
-email: furukawa.s@northeastern.edu
+location: Boston, Massachusetts
+email: furukawa.s[at]northeastern.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a first-year PhD student at Northeastern University where I am advised by Professor Alina Oprea.
-  My research focuses on privacy-preserving machine learning, differential privacy, federated learning and adversarial machine learning.
+  First-year PhD student at Northeastern University
 header_pages:
+  - index.md
   - publications.md
   - cv.md
   - contact.md
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  Saefurukawa
-
+linkedin: 
 # Build settings
 theme: minima
 plugins:
