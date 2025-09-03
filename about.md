@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: sidebar
 title: About
 permalink: /about/
 redirect_to: /

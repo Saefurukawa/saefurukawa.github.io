@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: sidebar
 title: Publications
 permalink: /publications/
 ---
