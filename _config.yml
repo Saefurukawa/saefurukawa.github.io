@@ -27,11 +27,10 @@ header_pages:
   - about.md
   - publications.md
   - cv.md
-  - contact.md
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Saefurukawa
-linkedin: 
+linkedin: [Linkedin](https://www.linkedin.com/in/sae-furukawa-0314b71a3/)
 # Build settings
 theme: minima
 plugins:

@@ -1,0 +1,14 @@
+---
+---
+@import "minima";
+
+/* simple two-column home layout */
+.home-grid { display: flex; gap: 2rem; align-items: flex-start; }
+.home-aside { flex: 0 0 260px; }
+.home-content { flex: 1; min-width: 0; }
+
+/* small tweaks */
+.home-aside .site-name { margin: 0 0 .25rem 0; }
+.home-aside .desc { margin: .4rem 0 .8rem 0; }
+.home-aside .meta { list-style: none; padding: 0; margin: 0; }
+.home-aside .meta li { margin: .15rem 0; }
