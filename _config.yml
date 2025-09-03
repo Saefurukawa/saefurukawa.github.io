@@ -18,23 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sae Furukawa
-location: Boston, Massachusetts
-email: furukawa.s[at]northeastern.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  First-year PhD student at Northeastern University
+title: "Sae Furukawa"
+description: "First-year PhD student at Northeastern University"
+location: "Boston, Massachusetts"
+email: "furukawa.s@northeastern.edu"
+theme: minima
 header_pages:
   - about.md
   - publications.md
   - cv.md
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Saefurukawa
-linkedin: [Linkedin](https://www.linkedin.com/in/sae-furukawa-0314b71a3/)
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+  - contact.md
+url: "https://saefurukawa.github.io"
+baseurl: ""
+github_username: "Saefurukawa"
+# linkedin: "https://www.linkedin.com/in/<your-handle>"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
