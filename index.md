@@ -7,7 +7,7 @@ title: About
 <style>.page-title{display:none}</style>
 
 <div class="home-grid">
-  <aside class="home-aside">
+  <!-- <aside class="home-aside">
     <h2 class="site-name">Sae Furukawa</h2>
     <div class="location">Boston, Massachusetts</div>
     <p class="desc">First-year PhD student at Northeastern University.</p>
@@ -16,7 +16,7 @@ title: About
       <li><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a></li>
       <li><a href="https://github.com/Saefurukawa" target="_blank" rel="noopener">GitHub</a></li>
     </ul>
-  </aside>
+  </aside> -->
 
   <main class="home-content">
     <p>I am a first-year PhD student at Northeastern University where I am advised by Professor Alina Oprea. My research focuses on privacy-preserving machine learning, differential privacy, federated learning, and adversarial machine learning.</p>
