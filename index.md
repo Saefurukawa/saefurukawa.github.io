@@ -1,6 +1,6 @@
 ---
 layout: sidebar
-title: About
+title: Sae Furukawa
 ---
 
 <!-- hide the big page title on home -->
