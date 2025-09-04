@@ -6,7 +6,7 @@
   {% if site.location %}<div class="location">{{ site.location }}</div>{% endif %}
   {% if site.description %}<p class="desc">{{ site.description }}</p>{% endif %}
   <ul class="meta">
-    {% if site.email %}<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>{% endif %}
+    {% if site.email %}<li>{{ site.email_label | default: site.email }}</li>{% endif %}
     {% if site.github_username %}<li><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a></li>{% endif %}
     {% if site.scholar %}<li><a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a></li>{% endif %}
     {% if site.linkedin %}<li><a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>{% endif %}
