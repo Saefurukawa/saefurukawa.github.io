@@ -3,13 +3,22 @@
 @import "minima";
 
 /* put title and nav on one row, left-aligned */
-.site-header { display: flex; align-items: center; gap: 1rem; }
-.site-title  { float: none; margin: 0; }
-.site-nav    { float: none; margin: 0; }
-.site-nav .page-link { margin-left: 1rem; }
+.site-header .wrapper { display: flex; align-items: center; gap: 1rem; flex-wrap: nowrap;  }
 
-/* keep Minima's mobile behavior */
-@media (max-width: 600px) { .site-header { display: block; } }
+/* reset Minima floats */
+.site-header .site-title,
+.site-header .site-nav { float: none; margin: 0; }
+
+/* push nav to the right and keep it from wrapping */
+.site-header .site-nav { margin-left: auto; white-space: nowrap; }
+.site-header .site-nav .page-link { display: inline-block; margin-left: 1rem; }
+
+
+/* mobile: stack title above nav */
+@media (max-width: 640px) {
+    .site-header .wrapper { display: block; }
+    .site-header .site-nav { margin-top: .5rem; white-space: normal; }
+  }
 
 .wrapper {
     max-width: 1200px;   /* pick what you like: 1000–1200px is common */
