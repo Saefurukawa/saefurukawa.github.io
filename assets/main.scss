@@ -2,9 +2,14 @@
 ---
 @import "minima";
 
-.site-title { float: none; }
-.site-nav   { float: none; margin-top: .5rem; }
-.site-nav .page-link { display: inline-block; margin-right: 1rem; }
+/* put title and nav on one row, left-aligned */
+.site-header { display: flex; align-items: center; gap: 1rem; }
+.site-title  { float: none; margin: 0; }
+.site-nav    { float: none; margin: 0; }
+.site-nav .page-link { margin-left: 1rem; }
+
+/* keep Minima's mobile behavior */
+@media (max-width: 600px) { .site-header { display: block; } }
 
 .wrapper {
     max-width: 1200px;   /* pick what you like: 1000–1200px is common */
