@@ -18,6 +18,16 @@
 @media (max-width: 640px) {
     .site-header .wrapper { display: block; }
     .site-header .site-nav { margin-top: .5rem; white-space: normal; }
+
+    /* content: put sidebar on top */
+    .home-grid    { flex-direction: column; gap: 1.25rem; }
+    .home-aside   { flex: none; width: 100%; margin-bottom: .5rem; }
+    .home-content { width: 100%; max-width: none; }
+    .home-aside { text-align: center; }
+    .home-aside .meta { display: inline-block; text-align: left; }
+
+    /* optional: smaller avatar on phones */
+    .home-aside .avatar { width: 96px; height: 96px; }
   }
 
 .wrapper {
