@@ -2,6 +2,12 @@
 ---
 @import "minima";
 
+.wrapper {
+    max-width: 1200px;   /* pick what you like: 1000–1200px is common */
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
 /* two-column layout used by 'sidebar' layout */
 .home-grid { display: flex; gap: 2rem; align-items: flex-start; }
 .home-aside { flex: 0 0 260px; }
