@@ -29,8 +29,10 @@
     /* optional: smaller avatar on phones */
     .home-aside .avatar { width: 96px; height: 96px; }
 
-    .cv-embed { display: none; }
-    .cv-link  { display: block; }
+    .cv-embed,
+    .cv-embed object,
+    .cv-embed iframe { display: none !important; }  /* extra-safe */
+    .cv-link { display: block !important; }
   
   }
 
