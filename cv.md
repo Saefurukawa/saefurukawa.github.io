@@ -6,7 +6,7 @@ permalink: /cv/
 
 <div class="cv-embed">
   <object
-    data="{{ '/assets/cv/cv.pdf' | relative_url }}"
+    data="{{ '/assets/docs/resume.pdf' | relative_url }}"
     type="application/pdf"
     width="100%"
     height="900">
@@ -14,5 +14,5 @@ permalink: /cv/
 </div>
 
 <p class="cv-link">
-  <a href="{{ '/assets/cv/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Open CV (PDF)</a>
+  <a href="{{ '/assets/docs/resume.pdf' | relative_url }}" target="_blank" rel="noopener">Open CV (PDF)</a>
 </p>
