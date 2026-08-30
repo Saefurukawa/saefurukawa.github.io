@@ -2,6 +2,9 @@
 ---
 @import "minima";
 
+/* remove Minima's dark strip at the very top of the page */
+.site-header { border-top: 0; }
+
 /* put title and nav on one row, left-aligned */
 .site-header .wrapper { display: flex; align-items: center; gap: 1rem; flex-wrap: nowrap;  }
 
@@ -61,4 +64,3 @@
     object-fit: cover;
     margin: 0 auto 0.75rem;
   }
-  
