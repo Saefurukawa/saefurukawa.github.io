@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Sae Furukawa"
-description: "First-year PhD student at Northeastern University"
+description: "Second-year PhD student at Northeastern University"
 location: "Boston, Massachusetts"
 email: "furukawa.s[at]northeastern.edu"
 email_label: "furukawa.s [at] northeastern.edu"
