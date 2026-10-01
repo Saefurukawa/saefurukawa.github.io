@@ -5,6 +5,7 @@ permalink: /publications/
 ---
 
 ## Preprints
+- **Sae Furukawa**, Alina Oprea, **[The Privacy Fallacy of Crowdsourced Fine-Tuning: Extracting Proprietary Data via Topic-Based Poisoning](https://arxiv.org/abs/2609.33985)**, arXiv:2609.33985, 2026.
 - **Sae Furukawa**, Alina Oprea, **[Reconstruction of Personally Identifiable Information from Proprietary Data in Supervised Fine-Tuned Models](https://arxiv.org/abs/2605.12264)**, arXiv:2605.12264, 2026.
 - Ashley Song, **Sae Furukawa**, Zhian Zhou, Bryce Tu, Chi David Nembhard, **Machine-Learning Enhanced Human-Error Detection in Drone-Assisted Bridge Inspections**, Preprint (under review at IEEE Transactions on Human-Machine Systems), 2025.
 
